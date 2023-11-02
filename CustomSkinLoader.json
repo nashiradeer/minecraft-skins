@@ -1,0 +1,33 @@
+{
+  "version": "14.18.1",
+  "buildNumber": 22,
+  "loadlist": [
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
+    },
+    {
+      "name": "NashiraDeer",
+      "type": "Legacy",
+      "checkPNG": false,
+      "model": "auto",
+      "skin": "https://minecraft-skins.nashiradeer.com/skins/{USERNAME}.png",
+      "cape": "https://minecraft-skins.nashiradeer.com/capes/{USERNAME}.png",
+      "elytra": "https://minecraft-skins.nashiradeer.com/elytras/{USERNAME}.png"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": true,
+  "forceIgnoreHttpsCertificate": false,
+  "forceLoadAllTextures": true,
+  "enableCape": true,
+  "threadPoolSize": 8,
+  "enableLogStdOut": false,
+  "cacheExpiry": 30,
+  "forceUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false,
+  "forceDisableCache": false
+}
