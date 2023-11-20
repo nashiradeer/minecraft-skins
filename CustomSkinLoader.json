@@ -2,12 +2,7 @@
   "version": "14.18.1",
   "buildNumber": 22,
   "loadlist": [
-    {
-      "name": "Mojang",
-      "type": "MojangAPI",
-      "apiRoot": "https://api.mojang.com/",
-      "sessionRoot": "https://sessionserver.mojang.com/"
-    },
+    
     {
       "name": "NashiraDeer",
       "type": "Legacy",
@@ -16,6 +11,12 @@
       "skin": "https://minecraft-skins.nashiradeer.com/skins/{USERNAME}.png",
       "cape": "https://minecraft-skins.nashiradeer.com/capes/{USERNAME}.png",
       "elytra": "https://minecraft-skins.nashiradeer.com/elytras/{USERNAME}.png"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
     }
   ],
   "enableDynamicSkull": true,
